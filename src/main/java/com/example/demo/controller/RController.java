@@ -21,12 +21,10 @@ public class RController {
         return repository.findAll();
     }
 
-    @PostMapping("/roots")
-    public Root save(@RequestBody JsonObject json){
+    @PostMapping("/root")
+    public Root save(@RequestBody Root json){
 
-      String r = "";
-
-        return null;
+        return repository.save(json);
     }
 
 
