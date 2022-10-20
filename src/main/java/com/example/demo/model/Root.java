@@ -15,7 +15,7 @@ import java.util.ArrayList;
 @Getter
 @Setter
 public class Root{
-    public int cuentamedica;
+    public String cuentamedica;
     public int paquete;
     public ArrayList<Registro> registros;
 }
